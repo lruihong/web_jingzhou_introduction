@@ -1,0 +1,140 @@
+body {
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body.ancient_city {
+    background-image: url('../images/ancient_city.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.south_lake {
+    background-image: url('../images/south_lake.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.museum {
+    background-image: url('../images/museum.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.Jinan_cultural_park {
+    background-image: url('../images/Jinan_cultural_park.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.fish_head_and_tofu_soup {
+    background-image: url('../images/fish_head_and_tofu_soup.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.crayfish {
+    background-image: url('../images/crayfish.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+body.stinky_tofu {
+    background-image: url('../images/stinky_tofu.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.intro-text {
+    text-align: left;
+    /* 左对齐 */
+    font-size: 1.4em;
+    line-height: 1.8;
+    text-indent: 2em;
+    /* 段首缩进两个字符 */
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.2);
+    /* 增加鼠标悬停时的放大效果 */
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 50px 10px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .description {
+        font-size: 1.2em;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
